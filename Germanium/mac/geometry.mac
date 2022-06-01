@@ -73,9 +73,9 @@
 /gate/Ger/setMaterial               	Germanium
 /gate/Ger/vis/setColor              	red
 
-/gate/Ger/attachCrystalSD
-/gate/systems/scanner/level1/attach  Ger
 
+/gate/systems/scanner/level1/attach  Ger
+/gate/Ger/attachCrystalSD
 
 #--- PMT
 
