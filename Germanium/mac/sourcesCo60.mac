@@ -1,0 +1,13 @@
+/gate/source/addSource Co60 gps
+/gate/source/Co60/gps/particle       ion
+/gate/source/Co60/gps/ion             27 60 0 0
+/gate/source/Co60/setForcedUnstableFlag true
+/gate/source/Co60/useDefaultHalfLife 
+/gate/source/Co60/setActivity       100 Bq
+/gate/source/Co60/gps/type          Volume
+/gate/source/Co60/gps/shape         Cylinder
+/gate/source/Co60/gps/radius        0.5 mm
+/gate/source/Co60/gps/halfz         0.1 mm
+/gate/source/Co60/gps/angtype       iso
+/gate/source/Co60/attachTo          container
+/gate/source/Co60/visualize  200 blue 3
