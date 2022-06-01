@@ -1,0 +1,9 @@
+	/gate/source/addSource backtoback gps
+	/gate/source/backtoback/setType 	   	backtoback
+       /gate/source/backtoback/gps/particle       	gamma
+       /gate/source/backtoback/gps/energytype	    	Mono
+       /gate/source/backtoback/gps/monoenergy     	511 keV
+       /gate/source/backtoback/setActivity            1000 Bq
+       /gate/source/backtoback/gps/direction       	1 0 0 
+       /gate/source/backtoback/gps/centre	        0 0 0 cm
+      /gate/source/backtoback/visualize  200 blue 3
