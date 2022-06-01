@@ -1,10 +1,13 @@
 # Germanium-detector
 Source code to simulate Germanium detector in GATE/GEANT4
 
-#### Information about simulation
-Source: gamma 1000 Bq
-Distance from detector: 2cm
-Time to simlutate: 100s
+#### Information about simulation 
+Source: gamma 1000 Bq 
+
+Distance from detector: 2cm 
+
+Time to simlutate: 100s 
+
 Examine energy from 10 keV to 1 MeV
 
 #### Edit energy
