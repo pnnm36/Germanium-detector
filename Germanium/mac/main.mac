@@ -37,13 +37,13 @@
 
 /gate/actor/MyActor/save			output/run02.root
 
-/gate/actor/MyActor/energySpectrum/setEmin               10 keV
+/gate/actor/MyActor/energySpectrum/setEmin               0 keV
 /gate/actor/MyActor/energySpectrum/setEmax               1.1 MeV
 /gate/actor/MyActor/energySpectrum/setNumberOfBins       1000
 
 
 /gate/actor/MyActor/enableEdepHisto		true
-/gate/actor/MyActor/energyLossHisto/setEdepMin        	10 keV
+/gate/actor/MyActor/energyLossHisto/setEdepMin        	0 keV
 /gate/actor/MyActor/energyLossHisto/setEdepMax        	1.1 MeV
 /gate/actor/MyActor/energyLossHisto/setNumberOfEdepBins       1000
 

@@ -20,26 +20,26 @@
 /gate/scanner0/vis/setColor              	yellow
 
 #------Pb mid---------------------------------------
-/gate/world/daughters/name 			scanner00
+/gate/world/daughters/name 			scanner1
 /gate/world/daughters/insert 			cylinder
-/gate/scanner00/geometry/setRmin          	13.95 cm
-/gate/scanner00/geometry/setRmax          	25.4 cm
-/gate/scanner00/geometry/setHeight        	30.5 cm
-/gate/scanner00/placement/setTranslation 	0.0 0.0 8.93 cm
-/gate/scanner00/setMaterial 			Lead
-/gate/scanner00/vis/setVisible 			1
-/gate/scanner00/vis/setColor              	yellow
+/gate/scanner1/geometry/setRmin          	13.95 cm
+/gate/scanner1/geometry/setRmax          	25.4 cm
+/gate/scanner1/geometry/setHeight        	30.5 cm
+/gate/scanner1/placement/setTranslation 	0.0 0.0 8.93 cm
+/gate/scanner1/setMaterial 			Lead
+/gate/scanner1/vis/setVisible 			1
+/gate/scanner1/vis/setColor              	yellow
 
 #------Pb down---------------------------------------
-/gate/world/daughters/name 			scanner000
+/gate/world/daughters/name 			scanner2
 /gate/world/daughters/insert 			cylinder
-/gate/scanner000/geometry/setRmin          	5.7 cm
-/gate/scanner000/geometry/setRmax          	25.4 cm
-/gate/scanner000/geometry/setHeight        	11.4 cm
-/gate/scanner000/placement/setTranslation 	0.0 0.0 -12.0 cm
-/gate/scanner000/setMaterial 			Lead
-/gate/scanner000/vis/setVisible 			1
-/gate/scanner000/vis/setColor              	yellow
+/gate/scanner2/geometry/setRmin          	5.7 cm
+/gate/scanner2/geometry/setRmax          	25.4 cm
+/gate/scanner2/geometry/setHeight        	11.4 cm
+/gate/scanner2/placement/setTranslation 	0.0 0.0 -12.0 cm
+/gate/scanner2/setMaterial 			Lead
+/gate/scanner2/vis/setVisible 			1
+/gate/scanner2/vis/setColor              	yellow
 
 #------Al------------------------------------------
 /gate/world/daughters/name 			scanner
@@ -53,19 +53,19 @@
 /gate/scanner/vis/setColor              	blue
 
 #------Vacuum------------------------------------------
-/gate/scanner/daughters/name 			scanner1
+/gate/scanner/daughters/name 			scannerv
 /gate/scanner/daughters/insert 			cylinder
-/gate/scanner1/geometry/setRmin          	0 cm
-/gate/scanner1/geometry/setRmax          	2.9 cm
-/gate/scanner1/geometry/setHeight        	5.9 cm
-/gate/scanner1/placement/setTranslation 	0.0 0.0 0.0 cm
-/gate/scanner1/setMaterial 			Vacuum
-/gate/scanner1/vis/setVisible 			1
-/gate/scanner1/vis/setColor              	white
+/gate/scannerv/geometry/setRmin          	0 cm
+/gate/scannerv/geometry/setRmax          	2.9 cm
+/gate/scannerv/geometry/setHeight        	5.9 cm
+/gate/scannerv/placement/setTranslation 	0.0 0.0 0.0 cm
+/gate/scannerv/setMaterial 			Vacuum
+/gate/scannerv/vis/setVisible 			1
+/gate/scannerv/vis/setColor              	white
 
 #----Germanium------------------------------------------
-/gate/scanner1/daughters/name          	Ger
-/gate/scanner1/daughters/insert        	cylinder
+/gate/scannerv/daughters/name          	Ger
+/gate/scannerv/daughters/insert        	cylinder
 /gate/Ger/geometry/setRmin          	0.0 cm
 /gate/Ger/geometry/setRmax          	2.7 cm
 /gate/Ger/geometry/setHeight        	4.95 cm
