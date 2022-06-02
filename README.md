@@ -2,7 +2,7 @@
 Source code to simulate Germanium detector in GATE/GEANT4
 
 #### Information about simulation 
-Source: gamma 50000 Bq 
+Source: gamma 10000 Bq 
 
 Distance from detector: 2cm 
 
