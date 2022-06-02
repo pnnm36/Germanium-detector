@@ -85,7 +85,7 @@
 #   M E A S U R E M E N T   S E T T I N G S   
 #=====================================================
 /gate/application/setTimeStart   0 s
-/gate/application/setTimeStop    100 s
+/gate/application/setTimeStop    300 s
 
 /gate/application/startDAQ
 
